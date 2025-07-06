@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+
+message CompanyTradingInformation {
+
+  string company_name   = 1;
+  string company_ticker = 2;
+  double current_price  = 3;
+
+  double beta                                   = 4;
+  double forward_annual_dividend_yield_pct      = 5;
+  double forward_annual_dividend_rate           = 6;
+  double dividend_yield_5y_avg                  = 7;
+  double trailing_annual_dividend_yield_pct     = 8;
+  double trailing_annual_dividend_rate          = 9;
+  double payout_ratio_pct                       = 10;
+  double current_ratio                          = 11;
+
+  double week52_range_pct   = 12;
+  double week52_high        = 13;
+  double week52_low         = 14;
+  double day50_moving_avg   = 15;
+  double day200_moving_avg  = 16;
+
+  string dividend_date   = 17;
+  string ex_dividend_date = 18;
+}
