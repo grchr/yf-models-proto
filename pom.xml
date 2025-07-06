@@ -64,11 +64,11 @@
         </dependency>
     </dependencies>
 
-    <repositories>
+    <distributionManagement>
         <repository>
             <id>github</id>
-            <name>GitHub Packages</name>
+            <name>GitHub grchr Apache Maven Packages</name>
             <url>https://maven.pkg.github.com/grchr/yf-models-proto</url>
         </repository>
-    </repositories>
+    </distributionManagement>
 </project>
