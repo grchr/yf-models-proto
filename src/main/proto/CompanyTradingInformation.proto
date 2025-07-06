@@ -1,5 +1,7 @@
 syntax = "proto3";
 
+option java_package = "com.opensource.yfmodels";
+option java_outer_classname = "CompanyTradingInformationProto";
 
 message CompanyTradingInformation {
 
